@@ -1,0 +1,26 @@
+component-> reusable block of code which can use in anywhere in the project.
+
+state-> current data of component( ui me esa data jo kisi variable se aa rha hai use state bola jata hai);
+
+react ke andar via default state state less hoti hai bcs ham js ke variable ka use karte hai 
+
+stateless-> variable kee value change ho jati hai but ui ke upar chnages nhi dikhai dete hai.
+
+
+
+  // state Active-: when ever user perform some action on the UI if changes reflect on the ui i.e example of state active.
+
+
+// we make stateless to state active via using react hooks
+
+  // stateless-: when ever user perform some action on the UI if changes not reflect on the ui i.e example of state less.
+  // js ke variable jo let, const ya var se bante hai vo state less hote hai
+
+  // event is action which is done by user like click, hover, scroll, load, resize.
+  // react ke andar event on se start hote hai like onClick, onSubmit, onLoad, onResize, on Scroll and so on.
+
+
+  // event handler function-> its responsible for executing the functionality what we wanted to perform when an event is trigger
+
+  // hooks-> hooks is a predefine react function which is used to perform some functionality like
+  // making state less to state active, perform side effects , perform routing and handle form and so on
