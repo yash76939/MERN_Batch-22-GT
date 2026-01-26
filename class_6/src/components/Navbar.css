@@ -1,0 +1,28 @@
+/* Navbar container */
+div {
+    background-color: #1e293b; /* dark blue/gray */
+    padding: 12px 24px;
+}
+
+/* Remove default list styling */
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar items */
+li {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect */
+li:hover {
+    color: #38bdf8; /* light blue */
+}
